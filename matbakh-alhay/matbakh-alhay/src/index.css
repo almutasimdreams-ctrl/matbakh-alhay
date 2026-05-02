@@ -1,0 +1,29 @@
+*, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+:root {
+  --cream: #F5EDD8;
+  --warm-white: #FBF7EE;
+  --gold: #C8873A;
+  --gold-light: #E8A050;
+  --dark: #1A0E06;
+  --brown: #3D2010;
+  --stone: #D4C8A8;
+  --green: #4A7A30;
+  --text: #2C1A0E;
+  --text-muted: #7A5A38;
+  --font: 'Tajawal', sans-serif;
+}
+
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: var(--font);
+  background: var(--warm-white);
+  color: var(--text);
+  direction: rtl;
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: var(--cream); }
+::-webkit-scrollbar-thumb { background: var(--gold); border-radius: 3px; }
